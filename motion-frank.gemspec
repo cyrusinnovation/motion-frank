@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'motion-frank'
-  s.version     = '1.1.8.0'
+  s.version     = '1.1.8.1'
   s.summary     = 'Frank integration for RubyMotion projects'
   s.description = 'motion-frank provides easy integration of frank-cucumber in RubyMotion projects'
   s.author      = 'Paul Infield-Harm'

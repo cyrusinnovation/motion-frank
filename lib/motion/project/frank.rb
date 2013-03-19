@@ -7,8 +7,10 @@ require 'cucumber/rake/task'
 frank_skeleton = File.join(Gem.loaded_specs['frank-cucumber'].full_gem_path, 'frank-skeleton')
 
 Motion::Project::App.setup do |app|
-  app.vendor_project(frank_skeleton, :static)
-  app.frameworks << 'CFNetwork'
+  app.development do
+    app.vendor_project(frank_skeleton, :static)
+    app.frameworks << 'CFNetwork'
+  end
 end
 
 namespace 'frank' do
