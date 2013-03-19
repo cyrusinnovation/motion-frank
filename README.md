@@ -5,8 +5,6 @@ A gem to use integration of frank-cucumber (http://testingwithfrank.com/) into R
 
 #### Installation
 
-**Quick Install**
-
 ```bash
 > gem install motion-frank
 ```
