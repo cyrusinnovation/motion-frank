@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'frank-cucumber', '1.1.8'
 
   files = []
-  files << 'README.rdoc'
+  files << 'README.md'
   files << 'LICENSE'
   files.concat(Dir.glob('lib/**/*.rb'))
   s.files = files
