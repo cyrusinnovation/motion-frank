@@ -8,7 +8,8 @@ frank_skeleton = File.join(Gem.loaded_specs['frank-cucumber'].full_gem_path, 'fr
 
 Motion::Project::App.setup do |app|
   app.development do
-    app.vendor_project(frank_skeleton, :static)
+    app.vendor_project(frank_skeleton, :static,
+                      :products => Dir.entries(frank_skeleton).select { |fnames| /.a$/ =~ fnames && !(/Mac.a$/ =~ fnames) })
     app.frameworks << 'CFNetwork'
   end
 end
