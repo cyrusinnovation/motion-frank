@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'motion-frank provides easy integration of frank-cucumber in RubyMotion projects'
   s.author      = 'Paul Infield-Harm'
   s.email       = 'pinfield-harm@cyrusinnovation.com'
-  s.add_dependency 'frank-cucumber', '1.2.2'
+  s.add_dependency 'frank-cucumber', '1.2.5'
   s.homepage    = 'https://github.com/cyrusinnovation/motion-frank'
 
   files = []
